@@ -3,7 +3,7 @@
         <nav class="float-left">
             <ul>
                 <li>
-<h1>footer</h1>
+
                     <a href="mailto:youremailaddress">Email WebMaster</a>
                 </li>
             </ul>

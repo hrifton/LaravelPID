@@ -28,11 +28,11 @@
                     },
                     { // item with child
                         href: '/home',
-                        title: 'Welome',
+                        title: 'Welcome',
                         icon: 'fa fa-chart-area',
                         child: [
                             {
-                                href: '/Welome/Welome',
+                                href: '/welcome',
                                 title: 'Sub Link',
                             }
                         ]

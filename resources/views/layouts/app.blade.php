@@ -18,7 +18,8 @@
 
             <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
                 <div class="container">
-
+                    <example-component/>
+                    <nav-bar-vuejs/>
 
                 </div>
             </nav>
