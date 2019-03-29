@@ -11,7 +11,12 @@ window.Vue = require('vue');
 import Vue from 'vue'
 import VueSidebarMenu from 'vue-sidebar-menu'
 import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+//import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 Vue.use(VueSidebarMenu)
+Vue.use(VueNavigationBar)
+library.add(faCoffee)
 
 /**
  * The following block of code may be used to automatically register your

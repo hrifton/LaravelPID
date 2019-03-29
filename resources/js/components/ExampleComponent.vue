@@ -10,7 +10,7 @@
                 menu: [
                     {
                         header: true,
-                        title: 'Main Navigation',
+                        title: 'Thêatre',
                         // component: componentName
                         // visibleOnCollapse: true
                     },
@@ -29,7 +29,7 @@
                     { // item with child
                         href: '/home',
                         title: 'Welome',
-                        icon: 'fa fa-chart-area',
+                        icon: 'fa fa-home',
                         child: [
                             {
                                 href: '/Welome/Welome',
