@@ -6,7 +6,7 @@
                     <div class="card-header">Example Component</div>
 
                     <div class="card-body">
-                        Exemple Vues .
+                        Exemple Vue .
                     </div>
                 </div>
             </div>
