@@ -18,7 +18,7 @@ class LocalitieController extends Controller
         $localities = Localitie::All();
         return view('localitie.index',[
             'localities' => $localities,
-            'resource' => 'localities',
+            'resource' => 'localitie',
         ]);
     }
 

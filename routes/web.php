@@ -18,6 +18,8 @@ Route::get('/home', function () {
     return view('welcome');
 });
 
+Route::get('localitie', 'LocalitieController@index');
+
 
 
 
