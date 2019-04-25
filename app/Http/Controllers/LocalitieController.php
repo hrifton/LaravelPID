@@ -14,7 +14,12 @@ class LocalitieController extends Controller
      */
     public function index()
     {
-        //
+        // Récupérer la liste des localité
+        $localities = Localitie::All();
+        return view('localitie.index',[
+            'localities' => $localities,
+            'resource' => 'localities',
+        ]);
     }
 
     /**
