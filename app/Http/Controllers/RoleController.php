@@ -14,7 +14,12 @@ class RoleController extends Controller
      */
     public function index()
     {
-        //
+        // Récupérer la liste des roles
+        $roles = Role::All();
+        return view('role.index',[
+            'roles' => $roles,
+            'resource' => 'role',
+        ]);
     }
 
     /**

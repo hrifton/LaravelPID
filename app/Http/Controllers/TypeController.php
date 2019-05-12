@@ -14,7 +14,12 @@ class TypeController extends Controller
      */
     public function index()
     {
-        //
+        // Récupérer la liste des artists
+        $types = Type::All();
+        return view('type.index',[
+            'types' => $types,
+            'resource' => 'type',
+    ]);
     }
 
     /**

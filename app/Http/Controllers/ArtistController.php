@@ -14,7 +14,12 @@ class ArtistController extends Controller
      */
     public function index()
     {
-        //
+        // Récupérer la liste des artists
+        $artists = Artist::All();
+        return view('artist.index',[
+            'artists' => $artists,
+            'resource' => 'artistes',
+        ]);
     }
 
     /**

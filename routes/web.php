@@ -20,6 +20,7 @@ Route::get('/home', function () {
 
 Route::get('localitie', 'LocalitieController@index');
 
+Route::get('artist', 'ArtistController@index');
 
 
 
