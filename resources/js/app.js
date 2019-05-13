@@ -8,14 +8,26 @@
 require('./bootstrap');
 import VueNavigationBar from 'vue-navigation-bar'
 window.Vue = require('vue');
+
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
+import PortalVue from 'portal-vue'
+Vue.use(PortalVue)
 import Vue from 'vue'
+import BootstrapVue from '../../node_modules/bootstrap-vue/es/components'
 import VueSidebarMenu from 'vue-sidebar-menu'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 Vue.use(VueSidebarMenu)
+Vue.use(FontAwesomeIcon)
 Vue.use(VueNavigationBar)
+
+
+
 library.add(faCoffee)
 
 /**
@@ -29,7 +41,7 @@ library.add(faCoffee)
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 //Exemple
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+//Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
 Vue.component('navbar', require('./components/nav-bar/navbarComponent.vue').default);
 
@@ -43,7 +55,7 @@ Vue.component('artist-vue', require('./components/artists/artistComponent.vue').
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
-
+Vue.use(BootstrapVue)
 const app = new Vue({
     el: '#app'
 });

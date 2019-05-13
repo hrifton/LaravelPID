@@ -6,6 +6,7 @@
 
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
+        
 
 
 
@@ -24,7 +25,7 @@
             
 
 
-            <div class="container-fluid">
+            <div class="container">
                 @yield('contenu')
             </div></div>
             

@@ -14,7 +14,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <script src="https://unpkg.com/vue-navigation-bar@1.0.0/dist/vue-navigation-bar.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/vue-navigation-bar@1.0.0/dist/vue-navigation-bar.css">
+    <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"
+  />
 
+  <!-- Required scripts -->
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+  <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
 
 
   </head>
